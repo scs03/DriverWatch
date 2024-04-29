@@ -21,7 +21,10 @@ with open('Real HR Values.csv', 'r', encoding='utf-8-sig') as file:
 
 # Interpolate the values of the shorter array
 interpolated_real_hr = np.interp(np.linspace(0, 1, len(smoothed_predicted_hr)), np.linspace(0, 1, len(real_hr)), real_hr)
-time = np.linspace(0, 378, len(smoothed_predicted_hr)) / 60  # Convert to minutes
+
+# PLACE LENGTH OF VIDEO BELOW:
+video_time = 378
+time = np.linspace(0, video_time, len(smoothed_predicted_hr)) / 60  # Convert to minutes
 
 # Plot the heart rate values
 plt.plot(time, smoothed_predicted_hr, label='Predicted HR')

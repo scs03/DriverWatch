@@ -3,7 +3,8 @@
 An implementation of the Eulerian video magnification computer vision algorithm initially developed by MIT CSAIL. This program uses the method for the application of remotely detecting an individual's heart rate in beats per minute from a still video of their face.
 
 Built with OpenCV, NumPy, and SciPy in Python 3
-[DriverWatch (7).pdf](https://github.com/user-attachments/files/15519410/DriverWatch.7.pdf)
+![DriverWatch Poster](https://github.com/scs03/DriverWatch/blob/main/DriverWatch.7.pdf)
+
 
 ## Program organization:
 The main.py file contains the main program that utilizes all of the other modules defined in the other code files
